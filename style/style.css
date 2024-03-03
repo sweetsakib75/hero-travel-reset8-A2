@@ -7,52 +7,59 @@
 
 
 /* variables */
-:root{
+:root {
     --primary-color: #FF5400;
-    --heading-color:#131318;
+    --heading-color: #131318;
     --paragraphs-color: rgba(19, 19, 24, 0.70);
     --banner-input-color: rgba(19, 19, 24, 0.50);
     --card-paragraph-color: #5A5A5D;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Mulish', sans-serif;
-    
+
 }
 
 
 
-header, .popular-container, .destination , .whychoose , .deal , .newsletter{
+header,
+.popular-container,
+.destination,
+.whychoose,
+.deal,
+.newsletter {
     padding-bottom: 100px;
 }
 
-main{
+main {
     max-width: 1175px;
     margin: 0 auto;
 }
 
-.section-primary-tittle{
+.section-primary-tittle {
     color: var(--heading-color);
     font-size: 2.3em;
     font-weight: 800;
 }
 
-.primary-p{
+.primary-p {
     color: var(--paragraphs-color);
     font-size: 1rem;
     font-weight: 400;
     line-height: 26px;
 }
-.secondary-p{
+
+.secondary-p {
     color: #5A5A5D;
     font-size: 1rem;
     font-weight: 400;
     line-height: 26px;
 }
-.btn2{
+
+.btn2 {
     cursor: pointer;
     border: none;
     padding: 13px 34px;
@@ -71,45 +78,53 @@ main{
 
 
 /* navigation section */
-.nav-container{
+.nav-container {
     display: flex;
     margin: 0 auto;
     max-width: 1180px;
     padding: 50px 0;
     align-items: center;
 }
-.nav-logo{
+
+.nav-logo {
     display: flex;
     width: 50%;
     align-items: center;
     gap: 10px;
 }
-.nav-logo img{
+
+.nav-logo img {
     max-width: 100%;
     object-fit: cover;
 }
-.nav-logo .logo-text{
+
+.nav-logo .logo-text {
     color: var(--heading-color);
     font-size: 2em;
     font-weight: 800;
 }
-.nav-logo .logo-text .logo-color{
+
+.nav-logo .logo-text .logo-color {
     color: var(--primary-color);
 }
-.scroll-icon{
+
+.scroll-icon {
     display: none;
 }
-.nav-menu{
+
+.nav-menu {
     width: 50%;
     display: flex;
     justify-content: space-between;
 }
-.nav-menu a{
+
+.nav-menu a {
     text-decoration: none;
     color: #424247;
     font-size: 1rem;
 }
-.nav-menu a:hover{
+
+.nav-menu a:hover {
     color: var(--primary-color);
     font-weight: 700;
     transition: .1s;
@@ -119,28 +134,31 @@ main{
 
 
 /* header banner section */
-.banner{
+.banner {
     text-align: center;
     padding: 106px 0;
     margin: 0 auto;
     max-width: 1175px;
-    background-image:linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../Images/Group\ 13\ \(1\)\ \(1\).png');
     background-repeat: no-repeat;
     background-position: center center;
     height: 500px;
-    border-radius: 16px; 
+    border-radius: 16px;
 }
-.banner-content{
+
+.banner-content {
 
     margin: 0 auto;
     text-align: center;
 }
-.banner-content h1{
+
+.banner-content h1 {
     color: #FFF;
     font-size: 3.8em;
     font-weight: 800;
 }
-.banner-content>p{
+
+.banner-content>p {
     padding: 24px 0 48px;
     max-width: 670px;
     margin: 0 auto;
@@ -150,7 +168,8 @@ main{
     font-weight: 400;
     line-height: 26px;
 }
-.banner-input{
+
+.banner-input {
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.30);
     display: inline-flex;
@@ -158,7 +177,10 @@ main{
     align-items: flex-start;
     gap: 24px;
 }
-.banner-input input, #when , #types{
+
+.banner-input input,
+#when,
+#types {
     padding: 16px 20px;
     color: var(--banner-input-color);
     font-size: 1rem;
@@ -167,7 +189,8 @@ main{
     background: #FFF;
     border: none;
 }
-.btn{
+
+.btn {
     cursor: pointer;
     border: none;
     padding: 13px 34px;
@@ -182,49 +205,59 @@ main{
 }
 
 /* popular tours section */
-.popular-container{
+.popular-container {
     display: flex;
     gap: 50px;
 }
-.popular-content{
+
+.popular-content {
     padding-top: 20px;
 }
-.popular-content ul{
+
+.popular-content ul {
     padding-left: 25px;
-    
+
 }
-.popular-content ul li{
+
+.popular-content ul li {
     padding-right: 66px;
     padding-bottom: 16px;
 }
-.popular-content>button{
+
+.popular-content>button {
     margin-top: 10px;
 }
 
-.popular-content p{
+.popular-content p {
     padding: 18px 0 25px;
 }
 
 
 /* destination grid section */
 
-.destination-content, .whychoose-content , .deal-content{
+.destination-content,
+.whychoose-content,
+.deal-content {
     width: 55.3%;
     margin: 0 auto;
     text-align: center;
 }
-.destination-content>p{
+
+.destination-content>p {
     margin: 24px 0 45px;
 }
-.row{
+
+.row {
     display: flex;
     gap: 20px;
 }
-.image-tittle img{
+
+.image-tittle img {
     border-radius: 16px;
     background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
 }
-.image-tittle h3{
+
+.image-tittle h3 {
     position: relative;
     top: -180px;
     color: #FFF;
@@ -239,12 +272,13 @@ main{
 
 /* why choose section */
 
-.whychoose-card{
+.whychoose-card {
     display: flex;
     gap: 26px;
     margin-top: 45px;
 }
-.card{
+
+.card {
     width: 573px;
     height: 284px;
     padding: 33px;
@@ -252,29 +286,34 @@ main{
     border: 1px solid rgba(251, 181, 99, 0.20);
     background: rgba(251, 181, 99, 0.05);
 }
-.card-tittle{
+
+.card-tittle {
     padding: 32px 0 16px;
     color: var(--heading-color);
     font-size: 1.6rem;
     font-weight: 800;
 }
-.card-p{
+
+.card-p {
     color: var(--card-paragraph-color);
     font-size: 1rem;
     font-weight: 400;
     line-height: 26px;
 }
-.card-bg2{
+
+.card-bg2 {
     border-radius: 16px;
     border: 1px solid rgba(41, 206, 246, 0.20);
     background: rgba(41, 206, 246, 0.05);
 }
-.whychoose-card2{
-   display: flex;
-   justify-content: center;
-   margin-top: 25px;
+
+.whychoose-card2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
 }
-.card-bg3{
+
+.card-bg3 {
     border-radius: 16px;
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
@@ -282,10 +321,11 @@ main{
 
 /* deal and discount section */
 
-.tourpackage-container{
+.tourpackage-container {
     margin: 48px 0 0;
 }
-.tourpackage{
+
+.tourpackage {
     margin-bottom: 24px;
     display: flex;
     flex-direction: row-reverse;
@@ -298,13 +338,16 @@ main{
     background-size: cover;
     object-fit: cover;
 }
-.dif{
+
+.dif {
     flex-direction: row;
 }
-.dif>.tour-details{
+
+.dif>.tour-details {
     margin-left: 56px;
 }
-.tour-details{
+
+.tour-details {
     width: 579px;
     height: 389px;
     margin-right: 56px;
@@ -314,12 +357,14 @@ main{
     background: rgba(255, 255, 255, 0.80);
     backdrop-filter: blur(2.5px);
 }
-.details{
+
+.details {
     display: flex;
     gap: 24px;
     align-items: center;
 }
-.tour-price{
+
+.tour-price {
     color: var(--primary-color);
     font-size: 1.2rem;
     font-weight: 800;
@@ -327,35 +372,41 @@ main{
 }
 
 /* places section */
-.perfect-place{
+.perfect-place {
     display: flex;
     gap: 50px;
 }
-.perfectplace-content{
+
+.perfectplace-content {
     padding-top: 20px;
 }
-.perfectplace-content ul{
+
+.perfectplace-content ul {
     padding-left: 25px;
-    
+
 }
-.perfectplace-content ul li{
+
+.perfectplace-content ul li {
     padding-right: 66px;
     padding-bottom: 16px;
 }
-.perfectplace-content>button{
+
+.perfectplace-content>button {
     margin-top: 10px;
 }
-.perfect-p{
+
+.perfect-p {
     color: var(--heading-color);
     font-size: 1rem;
     font-weight: 700;
     line-height: 26px;
 }
-.perfectplace-content p{
+
+.perfectplace-content p {
     padding: 18px 0 25px;
 }
 
-.perfectplace-image h4{
+.perfectplace-image h4 {
     width: 250px;
     text-align: center;
     position: relative;
@@ -370,33 +421,38 @@ main{
 
 /* newsletter section */
 
-.newsletter{
+.newsletter {
     gap: 15px;
     display: flex;
     justify-content: space-between;
 }
-.newsletter-content{
+
+.newsletter-content {
     border-radius: 16px;
     border: 1px solid #FF5400;
     padding: 40px;
     background: #FFF;
 }
-.newsletter-content h3{
+
+.newsletter-content h3 {
     margin-bottom: 16px;
     color: #131318;
     font-size: 1.4em;
     font-weight: 800;
 }
-.newsletter-input{
+
+.newsletter-input {
     display: grid;
     grid-template-columns: 1fr;
 }
-.hr{
+
+.hr {
     margin: 24px 0;
     width: 393px;
     border-bottom: 3px solid rgb(19 19 24 / 34%);
 }
-.newsletter-input input{
+
+.newsletter-input input {
     border: 0;
     margin-bottom: 16px;
     padding: 16px 20px;
@@ -406,7 +462,8 @@ main{
     font-weight: 400;
     background: rgba(19, 19, 24, 0.05);
 }
-.newsletter-image{
+
+.newsletter-image {
     width: 672px;
     height: 422px;
     border-radius: 16px;
@@ -415,7 +472,8 @@ main{
     background-position: center center;
     background-size: cover;
 }
-.saveup{
+
+.saveup {
     position: relative;
     top: 60%;
     left: 50%;
@@ -426,7 +484,8 @@ main{
     border-radius: 16px;
     background: #FF5400;
 }
-.saveup p{
+
+.saveup p {
     padding-top: 25px;
     color: #FFF;
     text-align: center;
@@ -436,7 +495,8 @@ main{
     font-weight: 400;
     line-height: normal;
 }
-.saveup h4{
+
+.saveup h4 {
     color: #FFF;
     font-size: 32px;
     font-weight: 800;
@@ -447,23 +507,27 @@ main{
     margin: auto;
     margin-bottom: 100px;
 }
-.optional h1{text-align: left;
-width: 600px;
-margin-bottom: 50px;
+
+.optional h1 {
+    text-align: left;
+    width: 600px;
+    margin-bottom: 50px;
 }
 
 /* footer section */
-footer{
+footer {
     padding: 110px;
     height: 502px;
     background: rgba(19, 19, 24, 0.05);
 }
-.footer-content{
+
+.footer-content {
     max-width: 769px;
     margin: 0 auto;
     text-align: center;
 }
-.footer-logo{
+
+.footer-logo {
     justify-content: center;
     margin: 0 auto;
     display: flex;
@@ -471,36 +535,42 @@ footer{
     align-items: center;
     gap: 10px;
 }
-.footer-logo img{
+
+.footer-logo img {
     max-width: 100%;
     object-fit: cover;
 }
-.footer-logo .logo-text{
+
+.footer-logo .logo-text {
     color: var(--heading-color);
     font-size: 2em;
     font-weight: 800;
 }
-.footer-logo .logo-text .logo-color{
+
+.footer-logo .logo-text .logo-color {
     color: var(--primary-color);
 }
-.footer-p{
+
+.footer-p {
     margin: 15px 0 33px;
 }
-.socials{
+
+.socials {
     margin-bottom: 50px;
 }
 
-.socials img{
+.socials img {
     margin-right: 20px;
 }
-.footer-hr{
+
+.footer-hr {
     margin-bottom: 50px;
     color: #1313181A;
 }
-.copyrights{
+
+.copyrights {
     color: var(--heading-color);
     font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-weight: 300;
 }
-
