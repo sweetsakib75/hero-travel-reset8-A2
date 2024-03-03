@@ -442,7 +442,15 @@ main{
     font-weight: 800;
 }
 
-
+/* unique section  */
+.optional {
+    margin: auto;
+    margin-bottom: 100px;
+}
+.optional h1{text-align: left;
+width: 600px;
+margin-bottom: 50px;
+}
 
 /* footer section */
 footer{

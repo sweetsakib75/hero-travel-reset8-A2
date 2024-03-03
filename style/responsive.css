@@ -1,7 +1,7 @@
 
 
 /* responsive style */
-@media only screen and (max-width:570px) {
+@media only screen and (max-width:600px) {
     header, .popular-container , .destination, .whychoose , .deal , .newsletter , footer{
         padding-bottom: 24px;
     }
@@ -157,22 +157,11 @@
         width: 100%;
     }
     .newsletter-image{
-        width: auto;
+        display: none;
     }
-    .saveup{
-        top: 67%;
-        left: 25%;
-        width: 244px;
-        height: 105px;
-    }
-    .saveup p{
-        padding-top: 25px;
-        font-size: 0.9rem;
-    }
-    .saveup h4{
-        color: #FFF;
-        font-size: 1.6rem;
-        font-weight: 800;
+ 
+    .optional{
+        display: none;
     }
     /* footer section */
     footer {
@@ -194,7 +183,7 @@
 
 
 
-@media screen and (min-width:570.1px) and (max-width:992px) {
+@media screen and (min-width:600.1px) and (max-width:992px) {
   
     header, .popular-container, .destination , .whychoose , .deal{
         padding-bottom: 35px;
