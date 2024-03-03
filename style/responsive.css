@@ -1,0 +1,291 @@
+
+
+/* responsive style */
+@media only screen and (max-width:570px) {
+    header, .popular-container , .destination, .whychoose , .deal , .newsletter , footer{
+        padding-bottom: 24px;
+    }
+    /* navigation bar section  */
+    .nav-container {
+        padding: 20px 20px;
+    }  
+    .nav-logo img {
+        width: 20%;
+        object-fit: cover;
+    }
+    .nav-logo .logo-text {
+    font-size: 1.2em;
+    }
+    .scroll-icon {
+        position: relative;
+        display: flex;
+        left: 130px;
+    }
+    .nav-menu {
+        display: none;  
+    }   
+    /* banner section */
+    .banner {
+        margin: 0 20px;
+        padding: 26px 0;
+        object-fit: cover;
+    }
+    .banner-input {
+        padding: 16px;
+        gap: 16px;
+        flex-direction: column;
+    }
+    .banner-content h1 {
+        font-size: 1.6em;
+    }
+    .banner-content>p {
+        padding: 10px 0 16px;
+    }
+    .banner-input input, #when, #types , .btn{
+        width: 100%;
+    }
+    /* popular tours section */
+    .popular-container {
+        flex-direction: column;
+        margin: 0 20px;
+    }
+    .section-primary-tittle {
+        font-size: 1.4em;
+    }
+    .popular-image img{
+        width: 100%;
+    }
+    /* destination section */
+    .destination-content , .whychoose-content , .deal-content , .footer-logo{
+        width: 80%;
+    }
+    .destination-content>p {
+        margin: 20px 0 25px;
+    }
+    .row{
+        flex-direction: column;
+        gap: 0;
+        padding: 0 20px;
+    }
+    .image-tittle img{
+        width: 100%;
+        height: 210px;
+    }
+    .image-tittle h3{
+        
+        top: -116px;
+        font-size: 1.4rem;
+    }
+    /* who choose section */
+    .whychoose-card {
+        gap: 17px;
+        margin: 26px 20px 0;
+        flex-direction: column;
+    }
+    .card {
+        width: 100%;
+        height: 100%;
+    }
+    .card-tittle {
+        padding: 16px 0 16px;
+        font-size: 1.0em;
+    }
+    .card-p {
+        font-size: .8rem;
+        line-height: 23px;
+    }
+    .card img{
+        width: 22%;
+    }
+    .whychoose-card2 {
+        margin: 20px 20px 0;
+        flex-direction: column;
+    }
+    /* deal and discount section */
+    .deal{
+        margin: 0 20px;
+    }
+    .tourpackage-container {
+        margin: 10px 0;
+    }
+    .details {
+        display: flex;
+        gap: 0px;
+        flex-direction: column;
+    }
+    .tour-details {
+        padding: 24px;
+        margin: 25px;
+    }
+    .dif > .tour-details {
+        margin-left: 25px;
+    }
+    .tour-price{
+        font-size: .9rem;
+        margin: 12px 0 16px;
+    }
+    /* places section */
+    .perfect-place {
+        gap: 18px;
+        flex-direction: column;
+        margin: 0 20px;
+    }
+    .perfectplace-content {
+        padding-top: 0px;
+    }
+    .perfectplace-image img{
+        width: 100%;
+    }
+    .perfectplace-image h4 {
+        width: auto;
+        left: 3px;
+        top: -154px;
+        font-size: 20px;
+    }
+    .perfectplace-content ul li {
+        padding-right: 0px;
+        padding-bottom: 16px;
+    }
+      /* newsletter section */
+    .newsletter{
+        margin: 0 20px;
+        width: fit-content;
+        flex-direction: column;
+    }
+    .hr {
+        margin: 18px 0;
+        width: 100%;
+    }
+    .newsletter-image{
+        width: auto;
+    }
+    .saveup{
+        top: 67%;
+        left: 25%;
+        width: 244px;
+        height: 105px;
+    }
+    .saveup p{
+        padding-top: 25px;
+        font-size: 0.9rem;
+    }
+    .saveup h4{
+        color: #FFF;
+        font-size: 1.6rem;
+        font-weight: 800;
+    }
+    /* footer section */
+    footer {
+        padding: 29px;
+        height: 320px;
+    }
+   
+    .footer-p {
+        margin: 16px 0 16px;
+    }
+    .footer-hr {
+        margin-bottom: 25px;
+    }
+    .socials{
+        margin-bottom: 30px;
+    }
+
+}
+
+
+
+@media screen and (min-width:570.1px) and (max-width:992px) {
+  
+    header, .popular-container, .destination , .whychoose , .deal{
+        padding-bottom: 35px;
+    }
+
+    /* navbar section */
+    .nav-container {
+        padding: 35px 50px;
+    }
+    .nav-logo{
+        justify-content: left;
+    }
+
+    /* banner section */
+    .banner {
+        padding: 16px 0;
+    }
+    .banner-input {
+        padding: 16px;
+        gap: 16px;
+        flex-direction: column;
+    }
+    .banner-content h1 {
+        font-size: 4em;
+    }
+    .banner-content>p {
+        padding: 10px 0 16px;
+    }
+    .banner-input input, #when, #types , .btn{
+        width: 100%;
+    }
+    /* popular tours section */
+    .popular-container {
+        flex-direction: column;
+        margin: 0 20px;
+    }
+    .section-primary-tittle {
+        font-size: 2em;
+    }
+    .popular-image{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .popular-image img{
+        width: 100%;
+    }
+    /* destination section */
+    .destination-content , .whychoose-content , .deal-content{
+        width: 75%;
+    }
+    .destination-content>p {
+        margin: 20px 0 25px;
+    }
+    .row{
+        flex-direction: column;
+        gap: 0;
+        padding: 0 20px;
+    }
+    .image-tittle img{
+        height: 263px;
+        width: 100%;
+    }
+    .image-tittle h3{
+        top: -165px;
+        font-size: 1.4rem;
+    }
+
+    /* who choose section */
+    .whychoose-card {
+        gap: 17px;
+        margin: 26px 20px 0;
+        flex-direction: column;
+    }
+    .card {
+        width: 100%;
+        height: 100%;
+    }
+    .card-tittle {
+        padding: 16px 0 16px;
+        font-size: 1.1em;
+    }
+    .card-p {
+        font-size: 1rem;
+        line-height: 23px;
+    }
+    .card img{
+        width: 8%;
+    }
+    .whychoose-card2 {
+        margin: 20px 20px 0;
+        flex-direction: column;
+    }
+    
+}
